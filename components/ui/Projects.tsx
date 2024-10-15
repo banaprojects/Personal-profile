@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Tabs } from "./Tabs";
 import ecommerce from "@/assets/E-Commerce.png";
-import chatapp from "@/assets/Anon-Chat.png";
+import chatapp from "@/assets/Anon-chat.png";
 import { TextGenerateEffect } from "./TextGenerateEffect";
 import MagicButton from "./MagicButton";
 
