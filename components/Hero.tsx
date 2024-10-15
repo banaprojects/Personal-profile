@@ -52,7 +52,16 @@ const Hero = () => {
       <div id="my-work">
         <Projects />
       </div>
-      <div id="#skills">{/* <Languages /> */}</div>
+      <div id="my-skills">
+        <Languages />
+      </div>
+      <footer>
+        <div className="left">
+          <p>Email: cyzterance06@gmail.com</p>
+          <p>Phone: +250 798 974 795</p>
+        </div>
+        <div className="right"></div>
+      </footer>
     </div>
   );
 };
