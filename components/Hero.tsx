@@ -7,41 +7,37 @@ import Projects from "./ui/Projects";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import About from "./ui/About";
 import Languages from "./ui/Languages";
+// import codes from "../assets/codes.jpg";
 
 const Hero = () => {
   const personalDescription =
-    "With more than a year of work experience, I create user-friendly, visually appealing user interfaces as well as the full applications that can be used as a service. I am always looking for new challenges and opportunities to grow as a developer.";
+    "With more than a year of work experience, I create user-friendly, visually appealing user interfaces as well as the full applications that can be used as a service.";
   return (
-    <div className="pb-20">
-      <div>
-        <Spotlight className="-top-20 -left-30 h-screen" fill="white" />
-        <Spotlight className="top-20 -left-30 h-screen" fill="purple" />
-        <Spotlight className="top-50 left-30 h-screen" fill="blue" />
-      </div>
+    <div className="pb-20 w-full relative overflow-hidden">
+      <div className="zoom-effect h-screen w-full bg-cover bg-[url('../assets/index.jpg')] relative top-0 left-0 flex items-center transition-transform duration-300 transform">
+        <div className="pointer-events-none inset-0 flex" />
 
-      <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.02] bg-grid-black/[0.2] relative top-0 left-0 flex items-center justify-center">
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
-
-        <div className="flex flex-col justify-center relative z-10">
-          <div className="max-w-[89vw] flex flex-col items-center py-3 justify-center">
+        <div className="w-full h-screen pt-[6rem] bg-gradient-to-r from-black-100 via-black-100 to-transparent flex flex-col relative z-10">
+          <div className="flex flex-col py-3 h-[10rem] md:h-[37rem] [perspective:500px] relative z-20 max-w-5xl mx-auto w-full  items-start justify-start pt-10">
             <h1 className="text-6xl font-semibold md:text-6xl ">
-              Hi, I am Terance, I am a<br />
-              <span className="text-[#A020F0]">
-                <FlipWords
-                  words={["Front-End", "Back-End", "Mobile-App"]}
-                  className="text-center"
-                />
+              Hi, <br /> I am Terance, I am a<br />
+              <span className="text-[#A020F0] mr-3">
+                {/* <FlipWords words={["Front-End", "Back-End", "Mobile-App"]} /> */}
+                Full-Stack
               </span>
               developer.
             </h1>
-            <div className=" w-[70vw] mt-[10vh] px-10">
+            <div className=" w-[50vw] mt-[10vh]">
               <TextGenerateEffect
-                className="text-center text-[10px] lg:text-8xl"
+                className="lg:text-8xl"
                 words={personalDescription}
               />
             </div>
-            <a href="#my-work">
-              <MagicButton title="My work" />
+            <a
+              href="https://docs.google.com/document/d/1lsO1zs63_VArDMVY0Q0UV4Si2efZFS2lClSzP6-S-dU/edit?tab=t.0"
+              target="_blank"
+            >
+              <MagicButton title="Get my RESUME" />
             </a>
           </div>
         </div>

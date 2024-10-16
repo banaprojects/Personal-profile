@@ -13,18 +13,20 @@ const Projects = () => {
       value: "tab1",
       content: (
         <div className="flex">
-          <div className="w-[58vw] overflow-hidden relative h-[57vh] rounded-2xl text-xl md:text-4xl font-bold text-white bg-[#A020F0]">
+          <div className="w-[58vw] overflow-hidden relative h-[57vh] rounded-2xl text-xl md:text-4xl font-bold text-white bg-black-100">
             <Anon />
           </div>
           <div className="pl-7 w-[40vw]  bg-black-100">
             <h1 className="text-3xl font-semibold text-[#A020F0]">SocioLite</h1>
-            <TextGenerateEffect
+            {/* <TextGenerateEffect
               words="This is a realtime Chat app mainly for group events.
               It has various features like media sharing support, read receipts, Direct Messages and Group chats.
               It uses modernized UI and is fully responsive to various devices.
               This website was built using ChatEngine API and Next.js"
-            />
-
+            /> */}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            magni, rem ratione tempora, cupiditate nulla, nihil explicabo odit
+            dolor pariatur temporibus deserunt. Illo, deserunt omnis!
             <div className="flex justify-between mt-10">
               <a href="">
                 <MagicButton title="Live Demo" />
@@ -46,16 +48,18 @@ const Projects = () => {
       value: "tab2",
       content: (
         <div className="flex">
-          <div className="w-[60vw] overflow-hidden relative h-[57vh] rounded-2xl text-xl md:text-4xl font-bold text-white bg-[#A020F0]">
+          <div className="w-[60vw] overflow-hidden relative h-[57vh] rounded-2xl text-xl md:text-4xl font-bold text-white bg-black-100">
             {/* <ProjectX /> */}
           </div>
           <div className="pl-7 w-[40vw]  bg-black-100">
             <h1 className="text-3xl font-semibold text-[#A020F0]">XXX2</h1>
-            <TextGenerateEffect
+            {/* <TextGenerateEffect
               words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
             magni aliquam veniam dolores suscipit modi."
-            />
-
+            /> */}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            magni, rem ratione tempora, cupiditate nulla, nihil explicabo odit
+            dolor pariatur temporibus deserunt. Illo, deserunt omnis!
             <div className="flex justify-between mt-10">
               <a href="">
                 <MagicButton title="Live Demo" />
@@ -77,16 +81,18 @@ const Projects = () => {
       value: "tab3",
       content: (
         <div className="flex">
-          <div className="w-[60vw] overflow-hidden relative h-[57vh] py-10 rounded-2xl text-xl md:text-4xl font-bold text-white bg-[#A020F0]">
+          <div className="w-[60vw] overflow-hidden relative h-[57vh] py-10 rounded-2xl text-xl md:text-4xl font-bold text-white bg-black-100">
             <Ecommerce />
           </div>
           <div className="pl-7 w-[40vw]  bg-black-100">
             <h1 className="text-3xl font-semibold text-[#A020F0]">Shoppe</h1>
-            <TextGenerateEffect
+            {/* <TextGenerateEffect
               words="Shoppe is a web app that simulate real life e-commerce websites including carts,
               product categories, user authentication. It was developed with the help of fakestore API with React Js and TailwindCSS."
-            />
-
+            /> */}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            magni, rem ratione tempora, cupiditate nulla, nihil explicabo odit
+            dolor pariatur temporibus deserunt. Illo, deserunt omnis!
             <div className="flex justify-between mt-10">
               <a href="">
                 <MagicButton title="Live Demo" />
@@ -104,11 +110,13 @@ const Projects = () => {
       value: "tab4",
       content: (
         <div className="flex">
-          <div className="w-[60vw] overflow-hidden relative h-[57vh] py-10 rounded-2xl text-xl md:text-4xl font-bold text-white bg-[#A020F0]"></div>
+          <div className="w-[60vw] overflow-hidden relative h-[57vh] py-10 rounded-2xl text-xl md:text-4xl font-bold text-white bg-black-100"></div>
           <div className="pl-7 w-[40vw]  bg-black-100">
             <h1 className="text-3xl font-semibold text-[#A020F0]">XXX4</h1>
-            <TextGenerateEffect words="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-
+            {/* <TextGenerateEffect words="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." /> */}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            magni, rem ratione tempora, cupiditate nulla, nihil explicabo odit
+            dolor pariatur temporibus deserunt. Illo, deserunt omnis!
             <div className="flex justify-between mt-10">
               <a href="">
                 <MagicButton title="Live Demo" />
@@ -126,11 +134,13 @@ const Projects = () => {
       value: "tab5",
       content: (
         <div className="flex">
-          <div className="w-[60vw] overflow-hidden relative h-[57vh] py-10 rounded-2xl text-xl md:text-4xl font-bold text-white bg-[#A020F0]"></div>
+          <div className="w-[60vw] overflow-hidden relative h-[57vh] py-10 rounded-2xl text-xl md:text-4xl font-bold text-white bg-black-100"></div>
           <div className="pl-7 w-[40vw]  bg-black-100">
             <h1 className="text-3xl font-semibold text-[#A020F0]">XXX5</h1>
-            <TextGenerateEffect words="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-
+            {/* <TextGenerateEffect words="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." /> */}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            magni, rem ratione tempora, cupiditate nulla, nihil explicabo odit
+            dolor pariatur temporibus deserunt. Illo, deserunt omnis!
             <div className="flex justify-between mt-10">
               <a href="">
                 <MagicButton title="Live Demo" />
