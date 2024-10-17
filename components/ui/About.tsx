@@ -2,12 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="h-[10rem] md:h-[37rem] [perspective:500px] relative flex flex-col max-w-5xl mx-auto w-full  items-start justify-start pt-10">
+    <div className="h-[10rem] md:h-[37rem] [perspective:500px] relative flex flex-col max-w-5xl mx-auto w-full  items-start justify-start pt-20">
       <div>
         <h1 className="text-4xl font-semibold">About Me</h1>
       </div>
       <div className="flex">
-        <div className="flex-1 pt-10">
+        <div className="flex-1 pt-10 pr-20">
           <h2 className="text-lg">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et nihil
             nemo consequatur deleniti eius non iusto molestiae? Eos accusantium
@@ -19,7 +19,7 @@ const About = () => {
             odit asperiores veniam, distinctio repellat!
           </h2>
         </div>
-        <div className="border bg-black-300 w-[30vw] h-[60vh]"></div>
+        <div className="border bg-black-300 w-[30vw] h-[60vh] pl-10"></div>
       </div>
     </div>
   );
