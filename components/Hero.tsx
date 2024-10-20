@@ -37,7 +37,7 @@ const Hero = () => {
               href="https://docs.google.com/document/d/1lsO1zs63_VArDMVY0Q0UV4Si2efZFS2lClSzP6-S-dU/edit?tab=t.0"
               target="_blank"
             >
-              <MagicButton title="Get my RESUME" />
+              <MagicButton title="Resume" />
             </a>
           </div>
         </div>
