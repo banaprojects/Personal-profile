@@ -6,14 +6,14 @@ import { header } from "framer-motion/client";
 const FrontEnd = () => {
   return (
     <div>
-      <BentoGrid className="max-w-5xl mx-auto">
+      <BentoGrid className="bg-black-100 max-w-5xl mx-auto">
         {FrontEndProjects.map((project, i) => (
           <BentoGridItem
             key={i}
             title={project.title}
             description={project.description}
             header={project.header}
-            className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+            // className={i === 3 || i === 6 ? "md:col-span-2" : ""}
           />
         ))}
       </BentoGrid>

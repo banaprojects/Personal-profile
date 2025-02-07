@@ -11,7 +11,7 @@ const FullStack = () => {
             title={project.title}
             description={project.description}
             header={project.header}
-            className={i === 0 || i === 3 ? "md:col-span-2" : ""}
+            // className={i === 0 || i === 3 ? "md:col-span-2" : ""}
           />
         ))}
       </BentoGrid>

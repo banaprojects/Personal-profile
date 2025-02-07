@@ -13,7 +13,7 @@ const BackEnd = () => {
             title={project.title}
             description={project.description}
             header={project.header}
-            className={i === 4 || i === 5 ? "md:col-span-2" : ""}
+            // className={i === 4 || i === 5 ? "md:col-span-2" : ""}
           />
         ))}
       </BentoGrid>
